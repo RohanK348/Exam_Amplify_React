@@ -1,0 +1,20 @@
+.backdrop {
+  @apply transform fixed inset-0 h-full w-full overflow-hidden bg-black pointer-events-none invisible cursor-auto z-10;
+  opacity: 0.25;
+  &.fade-in {
+    @apply pointer-events-auto visible cursor-pointer;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.15s;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}

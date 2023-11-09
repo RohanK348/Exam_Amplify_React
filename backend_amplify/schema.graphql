@@ -1,0 +1,496 @@
+type User @model @searchable {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  avatar: String!
+  role: String!
+  phone: String
+  companyName: String
+  companyRole: String
+  corporateID: ID
+  corporate: Corporate @connection(fields: ["corporateID"])
+  profileID: ID
+  profile: Profile @connection(fields: ["profileID"])
+  isBlock: Boolean
+  createdAt: AWSDateTime
+}
+
+type Profile @model @searchable {
+  id: ID!
+  address: String
+  whatsapp: String
+  facebook: String
+  linkedin: String
+  twitter: String
+  instagram: String
+  tiktok: String
+  domain: String
+  hobby: String
+  significantAchievement: String
+  interestedCompany: String
+  interestedLocation: String
+  locationOutside: String
+  interestedJob: String
+  description: String
+  educations: [Education] @connection(keyName: "viewEducation", fields: ["id"])
+  premiumDate: AWSDateTime
+  trainNumber: Int
+  createdAt: AWSDateTime
+}
+
+type Corporate @model @searchable {
+  id: ID!
+  companyName: String!
+  type: [String]
+  phone: String
+  country: String
+  state: String
+  logo: String
+  logoString: String
+  description: String
+  verified: Boolean
+  candidateNumber: Int
+  createdAt: AWSDateTime
+}
+
+type Education @model @searchable
+@key(name: "viewEducation", fields: ["profileID", "createdAt"]) {
+  id: ID!
+  profileID: ID!
+  degree: String
+  branch: String
+  schoolName: String
+  courseName: String
+  instituteName: String
+  collegeName: String
+  universityName: String
+  percentage: Float
+  grade: String
+  CGPA: Float
+  year: Int
+  isOngoing: Boolean
+  place: String
+  state: String
+  country: String
+  createdAt: AWSDateTime
+}
+
+type SettingPrice @model {
+  id: ID!
+  corporateDescription: String!
+  candidateDescription: String!
+}
+
+type PriceCorporate @model {
+  id: ID!
+  name: String!
+  price: Float!
+  number: Int!
+}
+
+type CouponCorporate @model @searchable {
+  id: ID!
+  priceID: ID!
+  price: PriceCorporate @connection(fields: ["priceID"])
+  code: String!
+  isFree: Boolean!
+  percentage: Float
+}
+
+type PriceCandidate @model {
+  id: ID!
+  name: String!
+  price: Float!
+  month: Int!
+  train: Int!
+  details: [String]
+}
+
+type CouponCandidate @model @searchable {
+  id: ID!
+  priceID: ID!
+  price: PriceCandidate @connection(fields: ["priceID"])
+  code: String!
+  isFree: Boolean!
+  percentage: Float
+}
+
+type Topic @model @searchable  {
+  id: ID!
+  name: String!
+  brain: String!
+  description: String
+  subTopics: [SubTopic] @connection(keyName: "byTopic", fields: ["id"])
+  createdAt: AWSDateTime
+}
+
+type SubTopic @model @searchable
+@key(name: "byTopic", fields: ["topicID", "name"]) {
+  id: ID!
+  name: String!
+  topicID: ID!
+  topic: Topic @connection(fields: ["topicID"])
+  description: String
+  createdAt: AWSDateTime
+}
+
+enum ComplexityType {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+  HIGH
+  VERYHIGH
+  COMPLEX
+}
+
+type Option @model @searchable 
+@key(name: "optionView", fields: ["questionID", "createdAt"]) {
+  id: ID!
+  isTrue: Boolean!
+  description: String!
+  questionID: ID!
+  createdAt: AWSDateTime
+}
+
+enum OptionType {
+  SINGLE
+  MULTIFUL
+}
+
+type Question @model @searchable {
+  id: ID!
+  preInfor: String
+  description: String!
+  solution: String
+  activate: Boolean!
+  complexity: String #ComplexityType
+  time: Int
+  mark: Float
+  type: OptionType!
+  attributes: [String]
+  tags: [String]
+  subTopicID: ID!
+  subTopic: SubTopic @connection(fields: ["subTopicID"])
+  paragraphID: ID!
+  options: [Option] @connection(keyName: "optionView", fields: ["id"])
+  isAdmin: Boolean!
+  createdAt: AWSDateTime
+}
+
+type Paragraph @model @searchable {
+  id: ID!
+  description: String!
+  subTopicID: ID!
+  subTopic: SubTopic @connection(fields: ["subTopicID"])
+  isAdmin: Boolean!
+  createdAt: AWSDateTime
+}
+
+type Template @model @searchable {
+  id: ID!
+  name: String!
+  totalTime: Int!
+  activate: Boolean!
+  instructions: [String]
+  isSimple: Boolean!
+  rightID: ID
+  right: SimpleBrainTemplate @connection(fields: ["rightID"])
+  leftID: ID
+  left: SimpleBrainTemplate @connection(fields: ["leftID"])
+  corporateID: ID!
+  corporate: Corporate @connection(fields: ["corporateID"])
+  createdAt: AWSDateTime
+}
+
+type TemplateTopic @model @searchable {
+  id: ID!
+  name: String!
+  topicID: ID!
+  brain: String!
+  templateID: ID!
+  subtopics: [TemplateSubTopic] @connection(keyName: "tmpSubTopicView", fields: ["id"])
+  createdAt: AWSDateTime
+}
+
+type TemplateSubTopic @model @searchable
+@key(name: "tmpSubTopicView", fields: ["templateTopicID"]) {
+  id: ID!
+  name: String!
+  subTopicID: ID!
+  complexity: ComplexityType!
+  totalQuestion: Int!
+  templateTopicID: ID!
+  createdAt: AWSDateTime
+}
+
+type SimpleBrainTemplate @model @searchable {
+  id: ID!
+  brain: String!
+  totalTime: Int!
+  isOwn: Boolean!
+  beginner: Int
+  intermediate: Int
+  advanced: Int
+  high: Int
+  veryHigh: Int
+  complex: Int
+  sections: [ID] #ExamSection
+  createdAt: AWSDateTime
+}
+
+enum ExamMethod {
+  SEPARATE
+  MIX
+}
+
+enum ExamType {
+  OPEN
+  SCHEDULED
+  PRE_DEFINED
+  PRIVATE
+}
+
+type ExamSection @model @searchable {
+  id: ID!
+  questionID: ID!
+  brain: String!
+  type: String!
+  createdAt: AWSDateTime
+}
+
+type Exam @model @searchable {
+  id: ID!
+  name: String!
+  totalTime: Int!
+  rightBrainTime: Int!
+  leftBrainTime: Int!
+  right: [ID] #ExamSection
+  left: [ID] #ExamSection
+  method: ExamMethod!
+  type: String!
+  isRandom: Boolean!
+  displayType: String!
+  isTrain: Boolean!
+  students: [ID]
+  activate: Boolean!
+  camera: Boolean!
+  cameraNumber: Int!
+  screen: Boolean!
+  screenNumber: Int!
+  openingID: ID!
+  opening: Opening @connection(fields: ["openingID"])
+  templateID: ID
+  template: Template @connection(fields: ["templateID"])
+  templateType: String!
+  improveTemplateID: ID
+  improveTemplate: ImproveTemplate @connection(fields: ["improveTemplateID"])
+  additionalLevels: AWSJSON
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  createdAt: AWSDateTime
+}
+
+type Train @model @searchable {
+  id: ID!
+  userID: ID!
+  templateID: ID!
+  examIndex: Int!
+  examID: ID!
+  exam: Exam @connection(fields: ["examID"])
+  examResultID: ID!
+  examResult: ExamResult @connection(fields: ["examResultID"])
+  resultShowIndex: Int!
+}
+
+type Answer @model @searchable {
+  id: ID!
+  questionID: ID!
+  question: Question @connection(fields: ["questionID"])
+  answerOptions: [ID]
+  createdAt: AWSDateTime
+}
+
+type AnswerSection @model @searchable {
+  id: ID!
+  answer: [ID] #Answer
+  type: String!
+  state: String!
+  createdAt: AWSDateTime
+}
+
+type ExamResult @model @searchable {
+  id: ID!
+  userID: ID!
+  user: User @connection(fields: ["userID"])
+  examID: ID!
+  exam: Exam @connection(fields: ["examID"])
+  questionIndex: Int!
+  backNumber: Int!
+  startTime: AWSDateTime!
+  right: [ID] #AnswerSection
+  left: [ID] #AnswerSection
+  isTrain: Boolean!
+  corporateID: ID!
+  resultID: ID
+  percentage: Float
+  result: Result @connection(fields: ["resultID"])
+  createdAt: AWSDateTime
+}
+
+type Result @model @searchable {
+  id: ID!
+  percentage: Float!
+  totalCorrect: Int!
+  totalQuestion: Int!
+  rightID: ID!
+  right: ResultBrain @connection(fields: ["rightID"])
+  leftID: ID!
+  left: ResultBrain @connection(fields: ["leftID"])
+}
+
+type ResultBrain @model @searchable {
+  id: ID!
+  type: String!
+  percentage: Float!
+  totalCorrect: Int!
+  totalQuestion: Int!
+  topics: [ResultTopic] @connection(keyName: "byResultBrain", fields: ["id"])
+}
+
+type ResultTopic @model @searchable 
+@key(name: "byResultBrain", fields: ["resultBrainID", "createdAt"]) {
+  id: ID!
+  topicID: ID!
+  topic: Topic @connection(fields: ["topicID"])
+  percentage: Float!
+  totalCorrect: Int!
+  totalQuestion: Int!
+  resultBrainID: ID!
+  subTopics: [ResultSubtopic] @connection(keyName: "byResultTopic", fields: ["id"])
+  createdAt: AWSDateTime
+}
+
+type ResultSubtopic @model @searchable
+@key(name: "byResultTopic", fields: ["resultTopicID", "createdAt"]) {
+  id: ID!
+  subTopicID: ID!
+  subTopic: SubTopic @connection(fields: ["subTopicID"])
+  percentage: Float!
+  totalCorrect: Int!
+  totalQuestion: Int!
+  resultTopicID: ID!
+  createdAt: AWSDateTime
+}
+
+type Screen @model @searchable {
+  id: ID!
+  type: String!
+  image: String!
+  examResultID: ID!
+  createdAt: AWSDateTime
+}
+
+type Opening @model @searchable {
+  id: ID!
+  title: String!
+  vacancy: [String]
+  description: String
+  courses: [String]
+  specialisations: [String]
+  domains: [String]
+  years: [String]
+  year: Int!
+  EAScore: [String]
+  ExpiryDate: AWSDateTime!
+  corporateID: ID!
+  corporate: Corporate @connection(fields: ["corporateID"])
+  createdAt: AWSDateTime
+}
+
+type FavoriteCorporate @model @searchable {
+  id: ID!
+  userID: ID!
+  corporateID: ID!
+  createdAt: AWSDateTime
+}
+
+type FavoriteOpening @model @searchable {
+  id: ID!
+  userID: ID!
+  openingID: ID!
+  createdAt: AWSDateTime
+}
+
+type FavoriteExam @model @searchable {
+  id: ID!
+  userID: ID!
+  examID: ID!
+  createdAt: AWSDateTime
+}
+
+type Notification @model @searchable {
+  id: ID!
+  name: String!
+  description: String!
+  userID: ID!
+  createdAt: AWSDateTime
+}
+
+type Department @model @searchable {
+  id: ID!
+  name: String!
+  templates: [ImproveTemplate] @connection(keyName: "improveTemplateView", fields: ["id"])
+  createdAt: AWSDateTime
+}
+
+type ImproveTemplate @model @searchable
+@key(name: "improveTemplateView", fields: ["departmentID"]) {
+  id: ID!
+  name: String!
+  description: String
+  departmentID: ID!
+  department: Department @connection(fields: ["departmentID"])
+  totalTime: Int!
+  activate: Boolean!
+  publish: Boolean!
+  corporateID: ID!
+  topics: [ImproveTemplateTopic] @connection(keyName: "improveTemplateTopicView", fields: ["id"])
+  personalities: [Personality] @connection(keyName: "personalityView", fields: ["id"])
+  attributes: [Attribute] @connection(keyName: "attributeView", fields: ["id"])
+  createdAt: AWSDateTime
+}
+
+type ImproveTemplateTopic @model @searchable
+@key(name: "improveTemplateTopicView", fields: ["improveTemplateID"]) {
+  id: ID!
+  topicID: ID!
+  topic: Topic @connection(fields: ["topicID"])
+  brain: String!
+  number: Int!
+  complexity: String! #ComplexityType
+  min: Int!
+  avg: Int!
+  max: Int!
+  improveTemplateID: ID!
+}
+
+type Personality @model @searchable
+@key(name: "personalityView", fields: ["improveTemplateID"]) {
+  id: ID!
+  name: String!
+  min: Int!
+  max: Int!
+  improveTemplateID: ID!
+}
+
+type Attribute @model @searchable
+@key(name: "attributeView", fields: ["improveTemplateID"]) {
+  id: ID!
+  key: String!
+  name: String!
+  value: Int!
+  editable: Boolean!
+  base: Boolean!
+  improveTemplateID: ID!
+}

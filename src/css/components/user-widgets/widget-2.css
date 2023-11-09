@@ -1,0 +1,22 @@
+.user-widget-2 {
+  .user-img {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 1) !important;
+    transform: translateY(-1.75rem);
+  }
+}
+[data-background="light"] {
+  .user-widget-2 {
+    .bottom-section {
+      @apply bg-white;
+    }
+  }
+}
+
+[data-background="dark"] {
+  .user-widget-2 {
+    .bottom-section {
+      background: color(theme("colors.grey.900") tint(5%));
+    }
+  }
+}
+

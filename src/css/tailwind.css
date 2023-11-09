@@ -1,0 +1,68 @@
+@tailwind base;
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+h5 {
+  @apply text-xl;
+}
+h6 {
+  @apply text-lg;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-sans;
+}
+
+code {
+  @apply font-mono p-1 inline rounded font-bold;
+}
+pre {
+  @apply font-mono p-2 block rounded font-bold;
+  @apply whitespace-pre-wrap;
+}
+[data-background="light"] {
+  code,
+  pre {
+    @apply bg-grey-100;
+  }
+}
+
+[data-background="dark"] {
+  code,
+  pre {
+    @apply bg-grey-800;
+  }
+}
+
+ul {
+  @apply list-none;
+}
+
+*,
+input,
+select,
+textarea,
+option,
+button {
+  outline: none !important;
+  &:focus {
+    outline: none !important;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

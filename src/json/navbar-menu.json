@@ -1,0 +1,50 @@
+[
+  {
+    "title": "At porro et.",
+    "subtitle": "Minima quasi sunt.",
+    "number": "01",
+    "color": "bg-orange-500 text-white"
+  },
+  {
+    "title": "Assumenda ex dolorem.",
+    "subtitle": "Possimus non dolor.",
+    "number": "02",
+    "color": "bg-amber-500 text-white"
+  },
+  {
+    "title": "Voluptas occaecati sint.",
+    "subtitle": "Cupiditate aliquid magnam.",
+    "number": "03",
+    "color": "bg-teal-500 text-white"
+  },
+  {
+    "title": "Adipisci mollitia perferendis.",
+    "subtitle": "Doloribus modi cum.",
+    "number": "04",
+    "color": "bg-amber-500 text-white"
+  },
+  {
+    "title": "Illo ea in.",
+    "subtitle": "Voluptatum suscipit minima.",
+    "number": "05",
+    "color": "bg-amber-500 text-white"
+  },
+  {
+    "title": "Non rerum voluptatem.",
+    "subtitle": "Magnam quae quia.",
+    "number": "06",
+    "color": "bg-orange-500 text-white"
+  },
+  {
+    "title": "Adipisci non numquam.",
+    "subtitle": "Esse culpa saepe.",
+    "number": "07",
+    "color": "bg-amber-500 text-white"
+  },
+  {
+    "title": "Ipsa similique vel.",
+    "subtitle": "Harum non fugiat.",
+    "number": "08",
+    "color": "bg-amber-500 text-white"
+  }
+]

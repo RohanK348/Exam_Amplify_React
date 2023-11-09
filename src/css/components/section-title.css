@@ -1,0 +1,10 @@
+.section-title {
+  @apply w-full mb-6 pt-3;
+  .title {
+    @apply text-xs uppercase font-light;
+  }
+  .subtitle {
+    @apply text-xl font-bold;
+  }
+}
+

@@ -1,0 +1,25 @@
+[data-navbar="light"] {
+  .navbar {
+    @apply text-grey-900;
+    @apply bg-white border-grey-100;
+    .navbar-search {
+      input {
+      @apply bg-grey-100 border-grey-100;
+      }
+    }
+  }
+}
+
+[data-navbar="dark"] {
+  .navbar {
+    @apply text-white;
+    background: color(theme('colors.grey.900') tint(5%));
+    border-color: color(theme('colors.grey.900') tint(10%));
+    .navbar-search {
+      input {
+        background: color(theme('colors.grey.900') tint(10%));
+        border-color: color(theme('colors.grey.900') tint(10%));
+      }
+    }
+  }
+}

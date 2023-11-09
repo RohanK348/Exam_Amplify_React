@@ -1,0 +1,1032 @@
+[
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "population": 1377422166,
+    "flag": {
+      "code": "cn",
+      "name": "China"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1295210000,
+    "flag": {
+      "code": "in",
+      "name": "India"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "population": 258705000,
+    "flag": {
+      "code": "id",
+      "name": "Indonesia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "population": 194125062,
+    "flag": {
+      "code": "pk",
+      "name": "Pakistan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "population": 161006790,
+    "flag": {
+      "code": "bd",
+      "name": "Bangladesh"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Russian Federation",
+    "capital": "Moscow",
+    "population": 146599183,
+    "flag": {
+      "code": "ru",
+      "name": "Russian Federation"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 126960000,
+    "flag": {
+      "code": "jp",
+      "name": "Japan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manila",
+    "population": 103279800,
+    "flag": {
+      "code": "ph",
+      "name": "Philippines"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Viet Nam",
+    "capital": "Hanoi",
+    "population": 92700000,
+    "flag": {
+      "code": "vn",
+      "name": "Viet Nam"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 81770900,
+    "flag": {
+      "code": "de",
+      "name": "Germany"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Iran (Islamic Republic of)",
+    "capital": "Tehran",
+    "population": 79369900,
+    "flag": {
+      "code": "ir",
+      "name": "Iran (Islamic Republic of)"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Turkey",
+    "capital": "Ankara",
+    "population": 78741053,
+    "flag": {
+      "code": "tr",
+      "name": "Turkey"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "population": 66710000,
+    "flag": {
+      "code": "fr",
+      "name": "France"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "population": 65327652,
+    "flag": {
+      "code": "th",
+      "name": "Thailand"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": "London",
+    "population": 65110000,
+    "flag": {
+      "code": "gb",
+      "name": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "population": 60665551,
+    "flag": {
+      "code": "it",
+      "name": "Italy"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "population": 51419420,
+    "flag": {
+      "code": "mm",
+      "name": "Myanmar"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Korea (Republic of)",
+    "capital": "Seoul",
+    "population": 50801405,
+    "flag": {
+      "code": "kr",
+      "name": "Korea (Republic of)"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Spain",
+    "capital": "Madrid",
+    "population": 46438422,
+    "flag": {
+      "code": "es",
+      "name": "Spain"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kiev",
+    "population": 42692393,
+    "flag": {
+      "code": "ua",
+      "name": "Ukraine"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "population": 38437239,
+    "flag": {
+      "code": "pl",
+      "name": "Poland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "population": 37883543,
+    "flag": {
+      "code": "iq",
+      "name": "Iraq"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "population": 32248200,
+    "flag": {
+      "code": "sa",
+      "name": "Saudi Arabia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "population": 31576400,
+    "flag": {
+      "code": "uz",
+      "name": "Uzbekistan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "population": 31405416,
+    "flag": {
+      "code": "my",
+      "name": "Malaysia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "population": 28431500,
+    "flag": {
+      "code": "np",
+      "name": "Nepal"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "population": 27657145,
+    "flag": {
+      "code": "af",
+      "name": "Afghanistan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "population": 27478000,
+    "flag": {
+      "code": "ye",
+      "name": "Yemen"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Korea (Democratic People's Republic of)",
+    "capital": "Pyongyang",
+    "population": 25281000,
+    "flag": {
+      "code": "kp",
+      "name": "Korea (Democratic People's Republic of)"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "population": 23503349,
+    "flag": {
+      "code": "tw",
+      "name": "Taiwan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "population": 20966000,
+    "flag": {
+      "code": "lk",
+      "name": "Sri Lanka"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Romania",
+    "capital": "Bucharest",
+    "population": 19861408,
+    "flag": {
+      "code": "ro",
+      "name": "Romania"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "capital": "Damascus",
+    "population": 18564000,
+    "flag": {
+      "code": "sy",
+      "name": "Syrian Arab Republic"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "population": 17753200,
+    "flag": {
+      "code": "kz",
+      "name": "Kazakhstan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "population": 17019800,
+    "flag": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "population": 15626444,
+    "flag": {
+      "code": "kh",
+      "name": "Cambodia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Belgium",
+    "capital": "Brussels",
+    "population": 11319511,
+    "flag": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Greece",
+    "capital": "Athens",
+    "population": 10858018,
+    "flag": {
+      "code": "gr",
+      "name": "Greece"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "population": 10558524,
+    "flag": {
+      "code": "cz",
+      "name": "Czech Republic"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "population": 10374822,
+    "flag": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "population": 9894888,
+    "flag": {
+      "code": "se",
+      "name": "Sweden"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "population": 9856000,
+    "flag": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Hungary",
+    "capital": "Budapest",
+    "population": 9823000,
+    "flag": {
+      "code": "hu",
+      "name": "Hungary"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "population": 9730500,
+    "flag": {
+      "code": "az",
+      "name": "Azerbaijan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Jordan",
+    "capital": "Amman",
+    "population": 9531712,
+    "flag": {
+      "code": "jo",
+      "name": "Jordan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Belarus",
+    "capital": "Minsk",
+    "population": 9498700,
+    "flag": {
+      "code": "by",
+      "name": "Belarus"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Austria",
+    "capital": "Vienna",
+    "population": 8725931,
+    "flag": {
+      "code": "at",
+      "name": "Austria"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "population": 8593600,
+    "flag": {
+      "code": "tj",
+      "name": "Tajikistan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "population": 8527400,
+    "flag": {
+      "code": "il",
+      "name": "Israel"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Switzerland",
+    "capital": "Bern",
+    "population": 8341600,
+    "flag": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Hong Kong",
+    "capital": "City of Victoria",
+    "population": 7324300,
+    "flag": {
+      "code": "hk",
+      "name": "Hong Kong"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "population": 7153784,
+    "flag": {
+      "code": "bg",
+      "name": "Bulgaria"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "population": 7076372,
+    "flag": {
+      "code": "rs",
+      "name": "Serbia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "capital": "Vientiane",
+    "population": 6492400,
+    "flag": {
+      "code": "la",
+      "name": "Lao People's Democratic Republic"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Ireland",
+    "capital": "Dublin",
+    "population": 6378000,
+    "flag": {
+      "code": "ie",
+      "name": "Ireland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "population": 6047800,
+    "flag": {
+      "code": "kg",
+      "name": "Kyrgyzstan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "population": 5988000,
+    "flag": {
+      "code": "lb",
+      "name": "Lebanon"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "population": 5717014,
+    "flag": {
+      "code": "dk",
+      "name": "Denmark"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Singapore",
+    "capital": "Singapore",
+    "population": 5535000,
+    "flag": {
+      "code": "sg",
+      "name": "Singapore"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Finland",
+    "capital": "Helsinki",
+    "population": 5491817,
+    "flag": {
+      "code": "fi",
+      "name": "Finland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "population": 5426252,
+    "flag": {
+      "code": "sk",
+      "name": "Slovakia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Norway",
+    "capital": "Oslo",
+    "population": 5223256,
+    "flag": {
+      "code": "no",
+      "name": "Norway"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "population": 4751120,
+    "flag": {
+      "code": "tm",
+      "name": "Turkmenistan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Palestine, State of",
+    "capital": "Ramallah",
+    "population": 4682467,
+    "flag": {
+      "code": "ps",
+      "name": "Palestine, State of"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Oman",
+    "capital": "Muscat",
+    "population": 4420133,
+    "flag": {
+      "code": "om",
+      "name": "Oman"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "population": 4190669,
+    "flag": {
+      "code": "hr",
+      "name": "Croatia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "population": 4183658,
+    "flag": {
+      "code": "kw",
+      "name": "Kuwait"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "population": 3720400,
+    "flag": {
+      "code": "ge",
+      "name": "Georgia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Moldova (Republic of)",
+    "capital": "Chișinău",
+    "population": 3553100,
+    "flag": {
+      "code": "md",
+      "name": "Moldova (Republic of)"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "population": 3531159,
+    "flag": {
+      "code": "ba",
+      "name": "Bosnia and Herzegovina"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "population": 3093100,
+    "flag": {
+      "code": "mn",
+      "name": "Mongolia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "population": 2994400,
+    "flag": {
+      "code": "am",
+      "name": "Armenia"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Albania",
+    "capital": "Tirana",
+    "population": 2886026,
+    "flag": {
+      "code": "al",
+      "name": "Albania"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "population": 2872294,
+    "flag": {
+      "code": "lt",
+      "name": "Lithuania"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Qatar",
+    "capital": "Doha",
+    "population": 2587564,
+    "flag": {
+      "code": "qa",
+      "name": "Qatar"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "population": 2064188,
+    "flag": {
+      "code": "si",
+      "name": "Slovenia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Macedonia (the former Yugoslav Republic of)",
+    "capital": "Skopje",
+    "population": 2058539,
+    "flag": {
+      "code": "mk",
+      "name": "Macedonia (the former Yugoslav Republic of)"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Latvia",
+    "capital": "Riga",
+    "population": 1961600,
+    "flag": {
+      "code": "lv",
+      "name": "Latvia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Republic of Kosovo",
+    "capital": "Pristina",
+    "population": 1733842,
+    "flag": {
+      "code": "xk",
+      "name": "Republic of Kosovo"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Bahrain",
+    "capital": "Manama",
+    "population": 1404900,
+    "flag": {
+      "code": "bh",
+      "name": "Bahrain"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "population": 1315944,
+    "flag": {
+      "code": "ee",
+      "name": "Estonia"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "population": 1167242,
+    "flag": {
+      "code": "tl",
+      "name": "Timor-Leste"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "population": 847000,
+    "flag": {
+      "code": "cy",
+      "name": "Cyprus"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "population": 775620,
+    "flag": {
+      "code": "bt",
+      "name": "Bhutan"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Macao",
+    "capital": "",
+    "population": 649100,
+    "flag": {
+      "code": "mo",
+      "name": "Macao"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "population": 621810,
+    "flag": {
+      "code": "me",
+      "name": "Montenegro"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "population": 576200,
+    "flag": {
+      "code": "lu",
+      "name": "Luxembourg"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Malta",
+    "capital": "Valletta",
+    "population": 425384,
+    "flag": {
+      "code": "mt",
+      "name": "Malta"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "capital": "Bandar Seri Begawan",
+    "population": 411900,
+    "flag": {
+      "code": "bn",
+      "name": "Brunei Darussalam"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Maldives",
+    "capital": "Malé",
+    "population": 344023,
+    "flag": {
+      "code": "mv",
+      "name": "Maldives"
+    },
+    "region": "Asia"
+  },
+  {
+    "name": "Iceland",
+    "capital": "Reykjavík",
+    "population": 334300,
+    "flag": {
+      "code": "is",
+      "name": "Iceland"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "population": 100800,
+    "flag": {
+      "code": "je",
+      "name": "Jersey"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Isle of Man",
+    "capital": "Douglas",
+    "population": 84497,
+    "flag": {
+      "code": "im",
+      "name": "Isle of Man"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "population": 78014,
+    "flag": {
+      "code": "ad",
+      "name": "Andorra"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Guernsey",
+    "capital": "St. Peter Port",
+    "population": 62999,
+    "flag": {
+      "code": "gg",
+      "name": "Guernsey"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "population": 49376,
+    "flag": {
+      "code": "fo",
+      "name": "Faroe Islands"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Monaco",
+    "capital": "Monaco",
+    "population": 38400,
+    "flag": {
+      "code": "mc",
+      "name": "Monaco"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "population": 37623,
+    "flag": {
+      "code": "li",
+      "name": "Liechtenstein"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "population": 33140,
+    "flag": {
+      "code": "gi",
+      "name": "Gibraltar"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "population": 33005,
+    "flag": {
+      "code": "sm",
+      "name": "San Marino"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Åland Islands",
+    "capital": "Mariehamn",
+    "population": 28875,
+    "flag": {
+      "code": "ax",
+      "name": "Åland Islands"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "population": 2562,
+    "flag": {
+      "code": "sj",
+      "name": "Svalbard and Jan Mayen"
+    },
+    "region": "Europe"
+  },
+  {
+    "name": "Holy See",
+    "capital": "Rome",
+    "population": 451,
+    "flag": {
+      "code": "va",
+      "name": "Holy See"
+    },
+    "region": "Europe"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "examFunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "axios": "^0.21.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.4",
+    "stripe": "^8.153.0",
+    "razorpay": "^2.0.6",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "item-0",
+    "category": "todo",
+    "title": "Eligendi veniam cumque ratione magnam.",
+    "subtitle": "Qui mollitia vel accusantium recusandae.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-green-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w5.png"
+  },
+  {
+    "id": "item-1",
+    "category": "done",
+    "title": "Impedit neque corrupti voluptas qui.",
+    "subtitle": "Natus et qui molestias cumque.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m5.png"
+  },
+  {
+    "id": "item-2",
+    "category": "inProgress",
+    "title": "Nobis et cupiditate tempora sapiente.",
+    "subtitle": "Occaecati sint a ex ipsam.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w7.png"
+  },
+  {
+    "id": "item-3",
+    "category": "inProgress",
+    "title": "Voluptatem accusamus ut ut dolorem.",
+    "subtitle": "Quia voluptatum voluptates laboriosam aut.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m5.png"
+  },
+  {
+    "id": "item-4",
+    "category": "codeReview",
+    "title": "Mollitia eum consequatur praesentium voluptate.",
+    "subtitle": "Velit voluptatem reiciendis quia dolorem.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m2.png"
+  },
+  {
+    "id": "item-5",
+    "category": "codeReview",
+    "title": "Fugiat explicabo voluptates officia et.",
+    "subtitle": "Qui eaque est aut dolorum.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "backend",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m2.png"
+  },
+  {
+    "id": "item-6",
+    "category": "done",
+    "title": "Corporis assumenda quod aut iusto.",
+    "subtitle": "Id commodi consequuntur voluptatem ad.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w10.png"
+  },
+  {
+    "id": "item-7",
+    "category": "inProgress",
+    "title": "Beatae libero nemo deleniti aut.",
+    "subtitle": "Voluptas minima quos dicta beatae.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "backend",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m2.png"
+  },
+  {
+    "id": "item-8",
+    "category": "codeReview",
+    "title": "Occaecati mollitia facilis aperiam officiis.",
+    "subtitle": "Suscipit consectetur fugiat quia porro.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-green-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w4.png"
+  },
+  {
+    "id": "item-9",
+    "category": "todo",
+    "title": "Sint necessitatibus et consectetur deserunt.",
+    "subtitle": "Expedita omnis est laborum et.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m7.png"
+  },
+  {
+    "id": "item-10",
+    "category": "done",
+    "title": "Aut similique nemo quia enim.",
+    "subtitle": "Enim accusantium facilis quisquam perferendis.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m10.png"
+  },
+  {
+    "id": "item-11",
+    "category": "todo",
+    "title": "Dolorem enim error aut debitis.",
+    "subtitle": "Quam est non velit ab.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w8.png"
+  },
+  {
+    "id": "item-12",
+    "category": "inProgress",
+    "title": "Repudiandae amet aspernatur et dolorem.",
+    "subtitle": "Nemo maxime ut sed ut.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m10.png"
+  },
+  {
+    "id": "item-13",
+    "category": "todo",
+    "title": "Eum sint maiores nesciunt a.",
+    "subtitle": "Dolorem sequi quos quo a.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w6.png"
+  },
+  {
+    "id": "item-14",
+    "category": "inProgress",
+    "title": "Error praesentium qui facere non.",
+    "subtitle": "Officia quia inventore velit et.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m7.png"
+  },
+  {
+    "id": "item-15",
+    "category": "done",
+    "title": "Dolorum est rerum tempore accusamus.",
+    "subtitle": "Sunt ut unde aut ex.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-green-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m10.png"
+  },
+  {
+    "id": "item-16",
+    "category": "codeReview",
+    "title": "Ut qui quidem rerum est.",
+    "subtitle": "Expedita quas molestiae maxime maiores.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m1.png"
+  },
+  {
+    "id": "item-17",
+    "category": "codeReview",
+    "title": "Assumenda eum maiores temporibus et.",
+    "subtitle": "Quia delectus natus ut qui.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-green-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m3.png"
+  },
+  {
+    "id": "item-18",
+    "category": "todo",
+    "title": "Earum molestiae earum nemo distinctio.",
+    "subtitle": "Quia eius sit ea nisi.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-green-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w7.png"
+  },
+  {
+    "id": "item-19",
+    "category": "done",
+    "title": "Quisquam quam rem incidunt omnis.",
+    "subtitle": "Minus et quam a unde.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w3.png"
+  },
+  {
+    "id": "item-20",
+    "category": "inProgress",
+    "title": "Deleniti maiores voluptates eum sint.",
+    "subtitle": "Quasi fugiat qui rerum iste.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w10.png"
+  },
+  {
+    "id": "item-21",
+    "category": "inProgress",
+    "title": "Aut nihil voluptatem animi sunt.",
+    "subtitle": "Dolore temporibus sequi aliquid id.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-red-500 text-white"
+      },
+      {
+        "title": "backend",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w9.png"
+  },
+  {
+    "id": "item-22",
+    "category": "codeReview",
+    "title": "Corporis rem quasi quis quia.",
+    "subtitle": "Accusantium voluptatem alias quasi harum.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "backend",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m1.png"
+  },
+  {
+    "id": "item-23",
+    "category": "done",
+    "title": "Voluptates repellendus velit excepturi consequuntur.",
+    "subtitle": "Laudantium nobis laborum vel ut.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "backend",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m10.png"
+  },
+  {
+    "id": "item-24",
+    "category": "done",
+    "title": "Repellendus quibusdam et ea non.",
+    "subtitle": "Consequatur doloremque autem consequatur recusandae.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-purple-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m2.png"
+  },
+  {
+    "id": "item-25",
+    "category": "done",
+    "title": "Reprehenderit saepe saepe ut quo.",
+    "subtitle": "Ratione quaerat nesciunt voluptates quibusdam.",
+    "badges": [
+      {
+        "title": "api",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m4.png"
+  },
+  {
+    "id": "item-26",
+    "category": "done",
+    "title": "Quas consequatur temporibus voluptate sed.",
+    "subtitle": "Debitis cum voluptate beatae facere.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "frontend",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w6.png"
+  },
+  {
+    "id": "item-27",
+    "category": "codeReview",
+    "title": "Atque et accusamus est laudantium.",
+    "subtitle": "Temporibus qui corrupti magnam dicta.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-amber-500 text-white"
+      },
+      {
+        "title": "new",
+        "color": "bg-indigo-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m1.png"
+  },
+  {
+    "id": "item-28",
+    "category": "done",
+    "title": "At impedit quod doloribus ratione.",
+    "subtitle": "Minus nobis nobis doloremque ullam.",
+    "badges": [
+      {
+        "title": "web",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-cyan-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/w6.png"
+  },
+  {
+    "id": "item-29",
+    "category": "inProgress",
+    "title": "Sint tempora fugit placeat est.",
+    "subtitle": "Dolore laudantium reiciendis quo fuga.",
+    "badges": [
+      {
+        "title": "backend",
+        "color": "bg-blue-500 text-white"
+      },
+      {
+        "title": "devops",
+        "color": "bg-pink-500 text-white"
+      }
+    ],
+    "img": "/assets/faces/m10.png"
+  }
+]

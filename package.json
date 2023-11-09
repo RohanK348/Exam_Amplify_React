@@ -1,0 +1,92 @@
+{
+  "name": "D-board",
+  "version": "1.4.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.32",
+    "@material-ui/icons": "^4.11.2",
+    "@popperjs/core": "^2.4.4",
+    "@react-pdf/renderer": "^2.0.16",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.16.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.6",
+    "accounting": "^0.4.1",
+    "aws-amplify": "^4.0.3",
+    "chart.js": "^2.9.3",
+    "depcheck": "^1.2.0",
+    "faker": "^5.1.0",
+    "html2canvas": "^1.0.0",
+    "js-beautify": "^1.13.0",
+    "leaflet": "^1.7.1",
+    "madge": "^3.10.0",
+    "material-ui-popup-state": "^1.8.3",
+    "moment": "^2.29.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "rc-slider": "^9.5.0",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-circle": "^1.1.1",
+    "react-d3-speedometer": "0.14.1",
+    "react-datamaps": "^0.4.1",
+    "react-datetime": "^3.0.3",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.0",
+    "react-export-excel": "^0.5.3",
+    "react-hook-form": "^6.8.4",
+    "react-icons": "^3.11.0",
+    "react-images-upload": "^1.2.8",
+    "react-leaflet": "^2.7.0",
+    "react-notifications": "^1.7.2",
+    "react-popper": "^2.2.3",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "react-star-ratings": "^2.3.0",
+    "react-switch": "^5.0.1",
+    "react-table": "^7.5.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "suneditor": "^2.39.0",
+    "suneditor-react": "^3.1.2",
+    "tailwindcss": "^1.8.10",
+    "tailwindcss-prefers-dark-mode": "^1.3.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "NODE_OPTIONS=--max_old_space_size=8192 craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.2",
+    "postcss-color-function": "^4.1.0",
+    "postcss-each": "^0.10.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.3"
+  }
+}

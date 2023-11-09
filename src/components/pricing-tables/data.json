@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Basic",
+    "price": 49,
+    "items": [
+      {
+        "title": "Omnis explicabo ea",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Impedit consequatur atque",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Ut atque eum",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Libero porro magni",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Nesciunt illo neque",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Optio sed quia",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Libero cum quae",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Culpa quia iure",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Impedit similique fuga",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Vero aut voluptatibus",
+        "color": "text-red-500"
+      }
+    ]
+  },
+  {
+    "title": "Plus",
+    "price": 99,
+    "items": [
+      {
+        "title": "Rerum excepturi corrupti",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Dolorem a nisi",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Consectetur saepe dolor",
+        "color": "text-green-500"
+      },
+      {
+        "title": "In deserunt voluptate",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Quae accusamus fuga",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Facilis impedit rem",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Reiciendis dicta neque",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Repellat error aliquam",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Eum magni ratione",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Quam dolor ut",
+        "color": "text-green-500"
+      }
+    ]
+  },
+  {
+    "title": "Pro",
+    "price": 299,
+    "items": [
+      {
+        "title": "Consequatur repellendus nisi",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Qui fugit magnam",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Assumenda corrupti eveniet",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Quisquam animi quibusdam",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Quia eos vero",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Similique tempore beatae",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Et iste et",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Praesentium quos velit",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Expedita consequuntur doloribus",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Vel nam officia",
+        "color": "text-green-500"
+      }
+    ]
+  },
+  {
+    "title": "Premium",
+    "price": 499,
+    "items": [
+      {
+        "title": "Aut maiores at",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Hic id exercitationem",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Aut debitis officiis",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Dolorem qui sit",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Beatae expedita repudiandae",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Quisquam ipsam ea",
+        "color": "text-red-500"
+      },
+      {
+        "title": "Culpa quia iure",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Excepturi asperiores possimus",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Possimus sint molestiae",
+        "color": "text-green-500"
+      },
+      {
+        "title": "Eveniet molestiae nostrum",
+        "color": "text-red-500"
+      }
+    ]
+  }
+]

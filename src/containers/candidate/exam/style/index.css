@@ -1,0 +1,72 @@
+.questionTitle {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.question {
+  padding: 10px;
+}
+.item {
+  padding-bottom: 10px
+}
+.section {
+  padding: 0px 20px;
+}
+.timeNumber {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.timeUnit {
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+.questionItem {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 20px;
+  color: white;
+}
+.attempted {
+  background: #2EBC6A;
+}
+.notAttempted  {
+  background: #E4717A;
+}
+.reviewed {
+  background: #5D8EF3;
+}
+.notView {
+  background: #AAB3D5;
+}
+.mark {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+}
+.markText {
+  font-size: 14px;
+  color: gray;
+  padding-left: 15px;
+}
+.markItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.fullButton {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  background-color: #2EBC6A;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.sizeButton {
+  width: 190px;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Mobile app development",
+    "percent": 33,
+    "color": "bg-green-500"
+  },
+  {
+    "title": "Deploy github project",
+    "percent": 50,
+    "color": "bg-yellow-500"
+  },
+  {
+    "title": "Customer development",
+    "percent": 66,
+    "color": "bg-red-500"
+  },
+  {
+    "title": "Database backup",
+    "percent": 25,
+    "color": "bg-indigo-500"
+  },
+  {
+    "title": "Release version 1.4",
+    "percent": 80,
+    "color": "bg-blue-500"
+  }
+]
