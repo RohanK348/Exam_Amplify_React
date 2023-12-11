@@ -20,17 +20,6 @@ async function get(id) {
   }
 }
 
-async function update(data) {
-  try {
-    await API.graphql(graphqlOperation(updateAnswerSection, 
-      {input: data}))
-    
-    return Promise.resolve({message: 'success'})
-  } catch(error) {
-    return Promise.reject(error)
-  }
-}
-
 export {
   get,
   update,
