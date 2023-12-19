@@ -2,6 +2,20 @@ import Amplify, { Auth } from 'aws-amplify'
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function signup({firstName, email, password}) {
+  try {
+    const { user } = await Auth.signUp({
+      username: email,
+      password,
+      attributes: {
+        name: firstName,
+      }
+    });
+    return Promise.resolve(user)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
 
 async function signin({email, password}) {
   try {
