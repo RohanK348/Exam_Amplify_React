@@ -16,6 +16,17 @@ async function create(data) {
   }
 }
 
+async function update(data) {
+  try {
+    await API.graphql(graphqlOperation(updateAttribute, 
+      {input: data}))
+    
+    return Promise.resolve({message: 'success'})
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function remove(id) {
   try {
     await API.graphql(graphqlOperation(deleteAttribute, 
