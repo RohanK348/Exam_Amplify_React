@@ -6,17 +6,6 @@ import {searchOpenings} from '../customgraphql/queries'
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
-async function create(data) {
-  try {
-    let res = await API.graphql(graphqlOperation(createOpening, 
-      {input: data}))
-    res = res?.data?.createOpening
-    return Promise.resolve(res)
-  } catch(error) {
-    return Promise.reject(error)
-  }
-}
-
 async function update(data) {
   try {
     await API.graphql(graphqlOperation(updateOpening, 

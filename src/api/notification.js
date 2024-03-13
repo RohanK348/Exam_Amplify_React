@@ -5,6 +5,16 @@ import {getNotification, listNotifications, searchNotifications} from '../graphq
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function create(data) {
+  try {
+    await API.graphql(graphqlOperation(createNotification, 
+      {input: data}))
+    
+    return Promise.resolve({message: 'success'})
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
 
 async function update(data) {
   try {
