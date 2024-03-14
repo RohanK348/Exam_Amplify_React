@@ -6,6 +6,17 @@ import { searchImproveTemplates, getImproveTemplate } from '../customgraphql/que
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function create(data) {
+  try {
+    let res = await API.graphql(graphqlOperation(createImproveTemplate, 
+      {input: data}))
+    res = res?.data?.createImproveTemplate;
+    return Promise.resolve(res)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function update(data) {
   try {
     await API.graphql(graphqlOperation(updateImproveTemplate, 
