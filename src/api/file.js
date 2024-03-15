@@ -2,6 +2,15 @@ import Amplify, { Storage } from 'aws-amplify';
 import awsconfig from '../aws-exports';
 Amplify.configure(awsconfig);
 
+async function upload(file, filename) {
+  try {
+    const result = await Storage.put(filename, file);
+    return Promise.resolve({data: result})
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function getUrl(filename) {
   try {
     const result = await Storage.get(filename);
