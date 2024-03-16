@@ -6,6 +6,20 @@ import {getUser} from '../customgraphql/queries'
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function add(userId, openingId) {
+  try {
+    let res = await API.graphql(graphqlOperation(listFavoriteOpenings, {filter: {userID: {eq: userId}, openingID: {eq: openingId}}}))
+    res = res?.data?.listFavoriteOpenings?.items
+    if (res.length !== 0)
+      return Promise.reject({message: 'already exist'})
+    await API.graphql(graphqlOperation(createFavoriteOpening, 
+      {input: {userID: userId, openingID: openingId}}))
+    
+    return Promise.resolve(openingId)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
 
 async function remove(userId, openingId) {
   try {
