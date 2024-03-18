@@ -6,6 +6,17 @@ import {searchQuestions, searchSecureQuestions, getSecureQuestion} from '../cust
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function create(data) {
+  try {
+    let res = await API.graphql(graphqlOperation(createExamSection, 
+      {input: data}))
+    res = res?.data?.createExamSection
+
+    return Promise.resolve(res)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
 
 async function get(id) {
   try {
