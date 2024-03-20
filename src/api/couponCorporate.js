@@ -6,6 +6,17 @@ import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
 
+async function update(data) {
+  try {
+    await API.graphql(graphqlOperation(updateCouponCorporate, 
+      {input: data}))
+    
+    return Promise.resolve({message: 'success'})
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function remove(id) {
   try {
     await API.graphql(graphqlOperation(deleteCouponCorporate, 
