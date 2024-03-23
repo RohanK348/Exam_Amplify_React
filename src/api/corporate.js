@@ -5,6 +5,17 @@ import {getCorporate, listCorporates, searchCorporates, searchOpenings} from '..
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function create(data) {
+  try {
+    let res = await API.graphql(graphqlOperation(createCorporate, 
+      {input: data}))
+    res = res?.data?.createCorporate
+    return Promise.resolve(res)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function update(data) {
   try {
     let res = await API.graphql(graphqlOperation(updateCorporate, 
@@ -16,15 +27,6 @@ async function update(data) {
   }
 }
 
-async function remove(id) {
-  try {
-    await API.graphql(graphqlOperation(deleteCorporate, 
-      {input: {id: id}}))
-    return Promise.resolve({message: 'success'})
-  } catch(error) {
-    return Promise.reject(error)
-  }
-}
 
 async function get(id) {
   try {
