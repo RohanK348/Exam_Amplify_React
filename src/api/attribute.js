@@ -5,16 +5,6 @@ import {getAttribute, listAttributes, searchAttributes} from '../graphql/queries
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
-async function create(data) {
-  try {
-    await API.graphql(graphqlOperation(createAttribute, 
-      {input: data}))
-    
-    return Promise.resolve({message: 'success'})
-  } catch(error) {
-    return Promise.reject(error)
-  }
-}
 
 async function update(data) {
   try {
