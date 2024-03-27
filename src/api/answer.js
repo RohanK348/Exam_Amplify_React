@@ -6,21 +6,6 @@ import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
 
-async function createSome(data) {
-  try {
-    let res = await Promise.all(data.map(async (item) => {
-      let answer = await API.graphql(graphqlOperation(createAnswer, 
-        {input: item}))
-      answer = answer?.data?.createAnswer
-      return answer.id
-    }))
-    
-    return Promise.resolve(res)
-  } catch(error) {
-    return Promise.reject(error)
-  }
-}
-
 async function update(data) {
   try {
     await API.graphql(graphqlOperation(updateAnswer, 
