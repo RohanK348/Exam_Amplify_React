@@ -11,6 +11,15 @@ async function upload(file, filename) {
   }
 }
 
+async function getUrl(filename) {
+  try {
+    const result = await Storage.get(filename);
+    return result
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
+
 async function download(fileKey) {
   const result = await Storage.get(fileKey, { download: true });
   downloadBlob(result.Body, fileKey);
