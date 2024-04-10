@@ -5,6 +5,20 @@ import {getCorporate, listFavoriteCorporates, searchFavoriteCorporates} from '..
 import awsconfig from '../aws-exports'
 Amplify.configure(awsconfig)
 
+async function add(userId, corporateId) {
+  try {
+    let res = await API.graphql(graphqlOperation(listFavoriteCorporates, {filter: {userID: {eq: userId}, corporateID: {eq: corporateId}}}))
+    res = res?.data?.listFavoriteCorporates?.items
+    if (res.length !== 0)
+      return Promise.reject({message: 'already exist'})
+    await API.graphql(graphqlOperation(createFavoriteCorporate, 
+      {input: {userID: userId, corporateID: corporateId}}))
+    
+    return Promise.resolve(corporateId)
+  } catch(error) {
+    return Promise.reject(error)
+  }
+}
 
 async function remove(userId, corporateId) {
   try {
