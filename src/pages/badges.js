@@ -19,13 +19,6 @@ const Badges = () => {
         }>
         <div className="flex flex-wrap items-center justify-start mb-2 w-full space-x-2">
           {['lg', 'default', 'sm'].map((size, i) => (
-            <Badge key={i} size={size} color="bg-blue-500 text-white">
-              Default
-            </Badge>
-          ))}
-        </div>
-        <div className="flex flex-wrap items-center justify-start mb-2 w-full space-x-2">
-          {['lg', 'default', 'sm'].map((size, i) => (
             <Badge key={i} size={size} color="bg-blue-500 text-white" rounded>
               Default
             </Badge>
