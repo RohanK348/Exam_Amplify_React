@@ -6,6 +6,7 @@ import {FiAlertCircle} from 'react-icons/fi'
 
 const Index = () => (
   <>
+    <SectionTitle title="Notifications" subtitle="Alerts" />
 
     <Widget
       title="Default alerts"
