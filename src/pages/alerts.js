@@ -19,12 +19,6 @@ const Index = () => (
       <div className="flex flex-wrap">
         <div className="flex flex-col w-full space-y-4">
           <Alert
-            size="sm"
-            color="bg-red-500 text-white"
-            icon={<FiAlertCircle className="mr-2 stroke-current h-4 w-4" />}>
-            This is an important alert. Check it out!
-          </Alert>
-          <Alert
             color="bg-blue-500 text-white"
             icon={<FiAlertCircle className="mr-2 stroke-current h-4 w-4" />}>
             This is an important alert. Check it out!
